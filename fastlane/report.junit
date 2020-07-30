@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="2" failures="1" name="poop">
+    <testsuite name="GroceriesUITests" tests="2" failures="1" time="47.57652008533478">
+        <testcase classname="AboutFeature" name="testOpenSoftwareAcknowledgements()" time="22.754817008972168">
+            <failure message="XCTAssertFalse failed - Software Acknowledgments isn't the current screen (/Users/mindera/Jenkins/workspace/groceries-ios_PR-2309/GroceriesUITests/Sources/StepDefinitions/AboutSteps.swift#CharacterRangeLen=0&amp;EndingLineNumber=36&amp;StartingLineNumber=36)">
+            </failure>
+        </testcase>
+        <testcase classname="AboutFeature" name="testCompanyInfo()" time="24.82170307636261">
+        </testcase>
+        <testcase classname="AboutFeature" name="testOpenCenas()" time="22.754817008972168">
+            <failure message="XCTAssertFalse failed - Software Acknowledgments isn't the current screen (/Users/mindera/Jenkins/workspace/groceries-ios_PR-2309/GroceriesUITests/Sources/StepDefinitions/AboutSteps.swift#CharacterRangeLen=0&amp;EndingLineNumber=36&amp;StartingLineNumber=36)">
+            </failure>
+        </testcase>
+    </testsuite>
+</testsuites>
