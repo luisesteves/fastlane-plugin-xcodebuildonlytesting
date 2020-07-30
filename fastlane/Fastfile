@@ -1,0 +1,5 @@
+lane :test do
+  puts xcodebuildonlytesting(
+  	reportLocation: "./fastlane/report.junit"
+  )
+end
